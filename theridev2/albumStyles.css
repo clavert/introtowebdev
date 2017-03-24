@@ -1,0 +1,21 @@
+<!DOCTYPE css>
+
+h1 {
+    
+}
+body {
+    font-family: 'helvetica';
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+
+h2 {
+    color:white;
+    border-bottom: solid red 2px;
+}
+
+#names {
+    font-weight: bold;
+    text-decoration: underline;
+}
