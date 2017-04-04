@@ -1,0 +1,33 @@
+h1, h2 {
+	font-family:helvetica, arial, sans-serif;
+	text-align:center;
+}
+
+body {
+	text-align:center;
+}
+
+div {
+	text-align:center;
+}
+
+.members {
+	list-style-position: inside;
+	font-style:italic;
+}
+
+#page {
+	margin:10 auto 10 auto;
+}
+
+#tabletitle {
+	font-size:small;
+}
+
+#table {
+	margin:auto;
+}
+
+th {
+	background-color:lightgrey;
+}
