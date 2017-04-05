@@ -1,0 +1,43 @@
+h1, h2 {
+	font-family:helvetica, arial, sans-serif;
+	text-align:center;
+}
+
+body {
+	text-align:center;
+}
+
+div {
+	text-align:center;
+}
+
+.members {
+	list-style-position: inside;
+	font-style:italic;
+}
+
+#page {
+	margin:10 auto 10 auto;
+}
+
+#table {
+	margin:auto;
+}
+
+thead {
+	background-color:lightgrey;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+	background-color:lightgreen;
+}
+
+tbody {
+	font-style:italic;
+	background-color:linen;
+}
