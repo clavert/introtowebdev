@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Contact Us</title>
+        <link href="restaurantStyles.css" type="text/css" rel="stylesheet">
+        <style>
+        input:focus {
+            outline:none;
+            border:2px solid black;
+        }
+
+        .text {
+            width:20%;
+            border:1px solid black;
+            border-radius: 4px;
+        }
+
+        textarea:focus {
+            outline:none;
+            border:2px solid black;
+        }
+
+        textarea {
+            resize: none;
+            border:1px solid black;
+            border-radius: 4px;
+        }
+
+        select:focus {
+            outline:none;
+        }
+
+        select {
+            width:20%;
+            border:1px solid black;
+            border-radius: 4px;
+            background-color: #f1f1f1;
+        }
+
+        input[type=submit] {
+            background-color:#f1f1f1;
+            color:black;
+            cursor: pointer;
+        }
+        
+        </style>
+    </head>
+    <body style="font-family: 'Comic Sans MS'">
+<div id="header">
+    <!-- Title -->
+        <h1>Corey's Dinner Palace</h1>
+
+    <!-- Navigation -->
+    <div id="nav">
+        <a href="coreysdinnerpalace.html">Home</a> |
+        <a href="coreysdinnermenu.html">Menu</a> |
+        <a href="coreysdinnercontact.html">Contact Us</a>
+        <hr>
+    </div>
+</div>
+
+<div id="content">
+    <!-- Form -->
+        <table width="90%" cellspacing="10">
+            <tr>
+                <td align="right" valign="top" width="45%">
+            <div id="labels">
+                    Name:<br><br>
+                    Email:<br><br>
+                    Phone:<br><br>
+                    Reason for Inquiry:<br><br>
+                    Additional Information:<br>
+                    <br><br><br><br>
+                    Have you been to the restaurant?<br><br>
+                    Best day(s) to contact you:
+            </div>
+                </td>
+                <td align="left" valign="top" width="45%">
+                <form action="coreysdinnercontact.html">
+                    <input type="text" class="text"><br><br>
+                    <input type="email" class="text"><br><br>
+                    <input type="text" class="text"><br><br>
+                    <select>
+                        <option>Catering</option>
+                        <option>Private Party</option>
+                        <option>Feedback</option>
+                        <option>Other</option>
+                    </select><br><br>
+                    <textarea rows="5" class="text"></textarea><br><br>
+                    <input type="radio">Yes
+                    <input type="radio">No<br><br>
+                    <input type="checkbox">M
+                    <input type="checkbox">T
+                    <input type="checkbox">W
+                    <input type="checkbox">Th
+                    <input type="checkbox">F<br><br>
+                    <input type="submit" value="Send Request">
+                </form>
+                </td>
+            </tr>
+        </table>
+</div>
+    <!-- Footer -->
+        <footer> 
+            <p>
+                <address>1100 Dinner Place, Minneapolis, Minnesota, 55455</address>
+            <br>
+                <address>763-318-5431</address>
+            </p>
+        </footer>
+    </body>    
+</html>
